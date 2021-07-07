@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo(a) com Hot Reload!!!</h1>
+    <p><b>Contador - Valor atual:</b> @TempData["Contador"]</p>
+    <p><b>Local (Máquina | Container | Pod):</b> @TempData["Local"]</p>
+    <p><b>Kernel:</b> @TempData["Kernel"]</p>
+    <p><b>Target Framework:</b> @TempData["TargetFramework"]</p>
+    <p><b>Mensagem Fixa:</b> @TempData["MensagemFixa"]</p>
+    <p><b>Mensagem Variável:</b> @TempData["MensagemVariavel"]</p>
+</div>
